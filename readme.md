@@ -1,71 +1,33 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# digitalSign
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## About Digital Sign
+![screencapture-localhost-themes-public-admin-2019-09-03-07_57_35](https://user-images.githubusercontent.com/16008924/64303530-d66b5f00-cfb2-11e9-9682-d58335fe0a3f.png)
+Is a web-based application that was built using Laravel version 5.8.29, php version 7.3.6 and
+MySQL database using
+adminlte theme.
+Intended for general approval, such as information boards for employees who
+requires approval from superiors and can be used for others.
+At the beginning we can determine the flow of approval for each relevant department and make changes
+conducted by the administrator.
 
-## About Laravel
+## Features
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost you and your team's skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+-[User Management] 
+![screencapture-localhost-themes-public-users-create-2019-09-04-14_58_23](https://user-images.githubusercontent.com/16008924/64303641-37933280-cfb3-11e9-838e-80cb6fabc1ee.png)
+-[Roles Management]
+![screencapture-localhost-themes-public-roles-create-2019-09-04-14_58_46](https://user-images.githubusercontent.com/16008924/64303662-45e14e80-cfb3-11e9-8c1e-dfd6a826f724.png)
+-[Work Flow Managment]
+![screencapture-localhost-themes-public-workflow-27-edit-2019-09-04-15_00_13](https://user-images.githubusercontent.com/16008924/64303674-51347a00-cfb3-11e9-81a2-fb9e7ddd3af7.png)
+-[Master Department]
+![screencapture-localhost-themes-public-department-2019-09-05-08_02_41](https://user-images.githubusercontent.com/16008924/64303719-8e007100-cfb3-11e9-9c9e-417d349a267d.png)
+-[Master Section]
+![screencapture-localhost-themes-public-section-2019-09-04-14_59_20](https://user-images.githubusercontent.com/16008924/64303728-9d7fba00-cfb3-11e9-85e8-04226a1ea0d8.png)
+-[Document Approval]
+![screencapture-localhost-themes-public-documents-create-2019-09-04-15_01_07](https://user-images.githubusercontent.com/16008924/64303743-b0928a00-cfb3-11e9-9ef5-feefea3970b7.png)
+-[History Document]
+![screencapture-localhost-themes-public-documents-3-2019-09-04-15_04_05](https://user-images.githubusercontent.com/16008924/64303830-2991e180-cfb4-11e9-82a2-add2c4ea21c3.png)
+-[Update Profile]
+![screencapture-localhost-themes-public-users-showProfile-37-2019-09-04-15_01_58](https://user-images.githubusercontent.com/16008924/64303752-bdaf7900-cfb3-11e9-8bed-268e4b859c0d.png)
+-[E-Signature]
+![screencapture-localhost-themes-public-document-printDocument-3-2019-09-04-15_05_37](https://user-images.githubusercontent.com/16008924/64303780-da4bb100-cfb3-11e9-818d-19524d835262.png)
+-[Email Notifaction]
