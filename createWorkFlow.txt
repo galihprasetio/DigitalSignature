@@ -1,0 +1,70 @@
+
+// $("form").submit(function(e){
+//     e.preventDefault();
+//     var step = $("input[name='step_number']").val();
+//     var status = $("input[name='status']").val();
+//     var author =  document.getElementById('author');
+//     var sentBack = document.getElementById('sentBack');
+//     var check = document.getElementById('check');
+//     var approve = document.getElementById('approve');
+//     var reject = document.getElementById('reject');
+//     $("#department-table tbody").append("<tr data-step-number='"+step+"' data-status='"+status+"' data-author='"+author.value+"' data-sentback='"+sentBack.value+"' data-check='"+check.value+"' data-approve='"+approve.value+"' data-reject='"+reject.value+"'><td>"+step+"</td><td>"+status+"</td><td>"+author.value+"</td><td>"+sentBack.value+"</td><td>"+check.value+"</td><td>"+approve.value+"</td><td>"+reject.value+"</td><td><button class='btn btn-default btn-xs btn-delete'><i class='glyphicon glyphicon-edit'></i> Delete</button></td></tr>");    
+//     $("input[name='step_number']").val('');
+//     $("input[name='status']").val('');
+//     $('#author').val(null).trigger('change');
+//     document.getElementById("sentBack").value = "";
+//     document.getElementById("check").value = "";
+//     document.getElementById("approve").value = "";
+//     document.getElementById("reject").value = "";
+//     var table = document.querySelector("table");
+//     var data = parseTable(table);
+//     console.log(data);
+//     $('#modalDetailWorkFlow').modal('toggle');
+
+// });
+// function addDetail(){
+//     //e.preventDefault();
+//     var step = $("input[name='step_number']").val();
+//     var status = $("input[name='status']").val();
+//     var author =  document.getElementById('author');
+//     var sentBack = document.getElementById('sentBack');
+//     var check = document.getElementById('check');
+//     var approve = document.getElementById('approve');
+//     var reject = document.getElementById('reject');
+//     $("#department-table tbody").append("<tr data-step-number='"+step+"' data-status='"+status+"' data-author='"+author.value+"' data-sentback='"+sentBack.value+"' data-check='"+check.value+"' data-approve='"+approve.value+"' data-reject='"+reject.value+"'><td>"+step+"</td><td>"+status+"</td><td>"+author.value+"</td><td>"+sentBack.value+"</td><td>"+check.value+"</td><td>"+approve.value+"</td><td>"+reject.value+"</td><td><button class='btn btn-default btn-xs btn-delete'><i class='glyphicon glyphicon-edit'></i> Delete</button></td></tr>");    
+//     $("input[name='step_number']").val('');
+//     $("input[name='status']").val('');
+//     $('#author').val(null).trigger('change');
+//     document.getElementById("sentBack").value = "";
+//     document.getElementById("check").value = "";
+//     document.getElementById("approve").value = "";
+//     document.getElementById("reject").value = "";
+    
+//     $('#modalDetailWorkFlow').modal('toggle');
+// };
+// $("body").on("click", ".btn-delete", function(){
+//         $(this).parents("tr").remove();
+        
+//     });
+// select2
+        
+        // $('#author').select2({
+        // allowClear: true,
+        // placeholder: 'Search...',
+        // ajax: {
+        // url: '{{url('workflow.getuser')}}',
+        // dataType: 'json',
+        // delay: 250,
+        // processResults: function (data) {
+        // return {
+        //   results:  $.map(data, function (item) {
+        //     return {
+        //       text: item.email,
+        //         id: item.email
+        //     }
+        //   })
+        // };
+        // },
+        // cache: true
+        //  }
+        // });       
