@@ -1,4 +1,4 @@
-# digitalSign
+# digitalSignature
 
 ## About Digital Sign
 ![screencapture-localhost-themes-public-admin-2019-09-03-07_57_35](https://user-images.githubusercontent.com/16008924/64303530-d66b5f00-cfb2-11e9-9682-d58335fe0a3f.png)
