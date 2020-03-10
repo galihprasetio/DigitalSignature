@@ -17,6 +17,7 @@ conducted by the administrator.
 -[Roles Management]
 ![screencapture-localhost-themes-public-roles-create-2019-09-04-14_58_46](https://user-images.githubusercontent.com/16008924/64303662-45e14e80-cfb3-11e9-8c1e-dfd6a826f724.png)
 -[Work Flow Managment]
+![screencapture-localhost-themes-public-workflow-create-2020-03-10-14_54_24](https://user-images.githubusercontent.com/16008924/76291140-223eee00-62df-11ea-8a62-af89d7d02c55.png)
 ![screencapture-localhost-themes-public-workflow-27-edit-2019-09-04-15_00_13](https://user-images.githubusercontent.com/16008924/64303674-51347a00-cfb3-11e9-81a2-fb9e7ddd3af7.png)
 -[Master Department]
 ![screencapture-localhost-themes-public-department-2019-09-05-08_02_41](https://user-images.githubusercontent.com/16008924/64303719-8e007100-cfb3-11e9-9c9e-417d349a267d.png)
